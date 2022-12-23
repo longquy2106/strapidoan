@@ -12,9 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Address": {
-      "type": "string"
-    },
     "Name": {
       "type": "string"
     },
@@ -38,12 +35,6 @@
     "Decripstion": {
       "type": "richtext"
     },
-    "rooms": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::room.room",
-      "mappedBy": "company"
-    },
     "room_type": {
       "type": "relation",
       "relation": "oneToOne",
@@ -53,6 +44,15 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::services-room.services-room"
+    },
+    "Address": {
+      "type": "string"
+    },
+    "rooms": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::room.room",
+      "mappedBy": "company"
     }
   }
 }
