@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "services_rooms",
+  "info": {
+    "singularName": "services-room",
+    "pluralName": "services-rooms",
+    "displayName": "Services-Room"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

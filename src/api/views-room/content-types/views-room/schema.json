@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "views_rooms",
+  "info": {
+    "singularName": "views-room",
+    "pluralName": "views-rooms",
+    "displayName": "Views-Room"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    }
+  }
+}
